@@ -4,14 +4,23 @@
 	<section id="contact" class="section-contact-1 bg-900 position-relative pt-130 pb-lg-250 pb-150 overflow-hidden">
 		<div class="container position-relative z-1">
 			<h3 class="ds-3 mt-3 mb-3 text-primary">Ponte en contacto</h3>
-			<br class="fs-5 fw-medium text-200">
-			Estoy disponible para nuevas oportunidades laborales y colaboraciones. Si estás buscando a alguien
-			comprometido con la
-			</br>
-			excelencia y la innovación, no dudes en contactarme para discutir cómo puedo aportar valor a tu
-			empresa. </span>
+			<span class="fs-5 fw-medium text-200">
+				Ingeniero de software apasionado por el desarrollo backend, siempre disponible para nuevas oportunidades laborales y colaboraciones. Si estás buscando a alguien comprometido con la excelencia y la innovación, no dudes en contactarme para discutir cómo puedo aportar valor a tu empresa.
+			</span>
 			<div class="row mt-8">
 				<div class="col-lg-4 d-flex flex-column">
+					<div class="d-flex align-items-center mb-4 position-relative d-inline-flex">
+						<div
+							class="bg-white icon-flip position-relative icon-shape icon-xxl border-linear-2 border-2 rounded-4">
+							<i class="ri-phone-fill text-primary fs-26"></i>
+						</div>
+						<div class="ps-3">
+							<span class="text-400 fs-5">Teléfono</span>
+							<h6 class="mb-0">+52 998-116-0272</h6>
+						</div>
+						<a href="<?= $ref_rel; ?>tel:+529981160272"
+							class="position-absolute top-0 start-0 w-100 h-100"></a>
+					</div>
 					<div class="d-flex align-items-center mb-4 position-relative d-inline-flex">
 						<div
 							class="bg-white icon-flip position-relative icon-shape icon-xxl border-linear-2 border-2 rounded-4">
@@ -57,7 +66,7 @@
 							<span class="text-400 fs-5">Dirección</span>
 							<h6 class="mb-0">Cancún Quintana Roo, México</h6>
 						</div>
-						<a href="<?= $ref_rel; ?>https://maps.google.com/maps?q=0811+Erdman+Prairie,+Joaville+CA"
+						<a href="<?= $ref_rel; ?>https://maps.google.com/maps?q=Cancun+Quintana+Roo+Mexico"
 							class="position-absolute top-0 start-0 w-100 h-100" target="_blank"></a>
 					</div>
 				</div>
@@ -71,25 +80,25 @@
 										<label class="mb-1 mt-3 text-dark" for="name">Tu nombre <span
 												class="text-primary">*</span></label>
 										<input type="text" class="form-control border rounded-3" id="name" name="name"
-											placeholder="John Doe" aria-label="username">
+											placeholder="Juan Pérez" aria-label="username">
 									</div>
 									<div class="col-md-6">
 										<label class="mb-1 mt-3 text-dark" for="email">Dirección de correo
 											electrónico <span class="text-primary">*</span></label>
 										<input type="text" class="form-control border rounded-3" id="email" name="email"
-											placeholder="contact.john@gmail.com" aria-label="email">
+											placeholder="tu.email@ejemplo.com" aria-label="email">
 									</div>
 									<div class="col-md-6">
 										<label class="mb-1 mt-3 text-dark" for="phone">Tu teléfono <span
 												class="text-primary">*</span></label>
 										<input type="text" class="form-control border rounded-3" id="phone" name="phone"
-											placeholder="+01 234 567 89" aria-label="phone">
+											placeholder="+52 998 123 4567" aria-label="phone">
 									</div>
 									<div class="col-md-6">
 										<label class="mb-1 mt-3 text-dark" for="subject">Asunto <span
 												class="text-primary">*</span></label>
 										<input type="text" class="form-control border rounded-3" id="subject"
-											name="subject" placeholder="Quiero contactar para...." aria-label="subject">
+											name="subject" placeholder="Consulta sobre desarrollo..." aria-label="subject">
 									</div>
 									<div class="col-12">
 										<label class="mb-1 mt-3 text-dark" for="message">Mensaje <span
@@ -135,9 +144,6 @@
 					</a>
 					<a href="work.html" class="fs-5">
 						Portafolio
-					</a>
-					<a href="pricing.html" class="fs-5">
-						Precios
 					</a>
 					<a href="blog-list.html" class="fs-5">
 						Blog

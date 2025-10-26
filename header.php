@@ -18,10 +18,11 @@
 						</li>
 
 						<li class="nav-item">
-							<a class="nav-link" href="services">Servicios</a>
-						</li>
-						<li class="nav-item">
 							<a class="nav-link" href="work">Portafolio</a>
+						</li>
+
+						<!-- <li class="nav-item">
+							<a class="nav-link" href="services">Servicios</a>
 						</li>
 
 						<li class="nav-item">
@@ -30,7 +31,7 @@
 
 						<li class="nav-item">
 							<a class="nav-link" href="blog-list">Blog</a>
-						</li>
+						</li> -->
 						<li class="nav-item">
 							<a class="nav-link" href="#contact">Contacto</a>
 						</li>
